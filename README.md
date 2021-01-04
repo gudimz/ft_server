@@ -1,4 +1,5 @@
 # ft_server.
+============
 
 # Introduction.
 ---------------
@@ -11,9 +12,9 @@ multiples services: Wordpress, phpMyAdmin, and a SQL database.
 # Instructions.
 ---------------
 
-* You must place all the necessary files for the configuration of your server in a folder called `srcs`.\
-* Your Dockerfile file should be at the root of your repository. It will build your container. You can’t use docker-compose.\
-* All the necessary files for your WordPress website should be in the folder `srcs`.\
+* You must place all the necessary files for the configuration of your server in a folder called `srcs`.
+* Your Dockerfile file should be at the root of your repository. It will build your container. You can’t use docker-compose.
+* All the necessary files for your WordPress website should be in the folder `srcs`.
 
 # Basic command with comments.
 ------------------------------
