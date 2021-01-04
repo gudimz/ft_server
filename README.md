@@ -1,7 +1,7 @@
 # ft_server.
 -------------
 
-## Introduction.
+### Introduction.
 ---------------
 
 This topic is intended to introduce you to system administration. It will make you aware
@@ -9,14 +9,14 @@ of the importance of using scripts to automate your tasks. For that, you will di
 the "docker" technology and use it to install a complete web server. This server will run
 multiples services: Wordpress, phpMyAdmin, and a SQL database.
 
-## Instructions.
+### Instructions.
 ---------------
 
 * You must place all the necessary files for the configuration of your server in a folder called `srcs`.
 * Your Dockerfile file should be at the root of your repository. It will build your container. You can’t use docker-compose.
 * All the necessary files for your WordPress website should be in the folder `srcs`.
 
-## Basic command with comments.
+### Basic command with comments.
 ------------------------------
 
 `docker build -t ft_server .` "Creation a ft_server image"
