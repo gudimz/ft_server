@@ -6,7 +6,7 @@
 #    By: agigi <agigi@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/31 15:08:52 by agigi             #+#    #+#              #
-#    Updated: 2021/01/03 02:45:41 by agigi            ###   ########.fr        #
+#    Updated: 2021/01/04 20:47:49 by agigi            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,10 +33,6 @@ COPY ./srcs/wp-config.php ./wordpress/wp-config.php
 
 #config for nginx
 COPY ./srcs/nginx.conf /etc/nginx/sites-available/localhost
-
-#create certificate and key for SSL
-COPY ./srcs/agigi.crt /etc/ssl/certs
-COPY ./srcs/agigi.key /etc/ssl/private
 
 #create folder for config and scripts
 RUN mkdir -p /usr/src/ft_server
